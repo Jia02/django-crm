@@ -1,3 +1,5 @@
 from django.contrib import admin
+#import from created Record db model
+from .models import Record #import from created Record db model
 
-# Register your models here.
+admin.site.register(Record)
